@@ -33,8 +33,23 @@ h1.headers {
 .italic_style {
     font-style: italic;
 }
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
 .important {
     font-weight: bold;
     color: rgb(225, 238, 46);
+}
+
+.validator {
+    width: 130px;
+    height: 50px;
+}
+
+.wrapper {
+    margin-left: 10pt;
+    display: flex;
+    gap: 20px;
 }
