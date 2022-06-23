@@ -13,6 +13,7 @@ body {
     margin: 10px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid black;
 }
 
 .middle-container {
@@ -66,4 +67,16 @@ p {
     margin-left: 630px;
     margin-right: auto;
     border-radius: 15px;
+}
+
+.validator {
+    width: 130px;
+    height: 50px;
+}
+
+.wrapper {
+    margin-left: 20pt;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10pt;
 }
