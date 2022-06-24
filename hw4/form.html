@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <form action="#" class="workshop">
+            <label for="workshop-reg" class="workshop-label">Workshop Registration</label>
+            <select name="actions" id="actions" class="actions">
+                <option value="more-actions">More Actions</option>
+                <option value="action2">Action 2</option>
+                <option value="action3">Action 3</option>
+                <option value="action4">Action 4</option>
+            </select>
+        </form>
+
+        <div class="middle">
+            <div>
+                <div class="titles">Register now while seate are available!</div>
+                <form name="user-data" class="form" action="#">
+                    <label for="fname" class="required">First Name </label>
+                    <input type="text" id="fname" name="fname" required>
+                    <label for="lname" class="required">Last Name </label>
+                    <input type="text" id="lname" name="lname" required>
+                    <label for="company" class="required">Company/Institution </label>
+                    <input type="text" id="company" name="company" required>
+                    <label for="address" class="required">Address </label>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                    <label for="city">City </label>
+                    <input type="text" id="city" name="city">
+                    <label for="country">State / Province / Region </label>
+                    <select name="region" id="region">
+                        <option value="">- Select - </option>
+                        <option value="MA">MA</option>
+                        <option value="NY">NY</option>
+                        <option value="CA">CA</option>
+                        <option value="IA">IA</option>
+                        <option value="FL">FL</option>
+                        <option value="MI">MI</option>
+                    </select>
+                    <label for="country">Country </label>
+                    <select name="country" id="country">
+                        <option value="">- Select - </option>
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="china">China</option>
+                        <option value="usa">Usa</option>
+                        <option value="russia">Russia</option>
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="afghanistan">Afghanistan</option>
+                    </select>
+                    <label for="email" class="required">Email </label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="phone" class="required">Phone Number </label>
+                    <input type="text" id="phone" name="phone" required>
+                </form>
+            </div>
+
+            <div class="choices">
+                <div class="titles">Lunch</div>
+                <form name="choices" action="#" class="form">
+                    <label for="meal">Meal Preferences</label>
+                    <select name="meal" id="meal">
+                        <option value="veggi">Vegetarian</option>
+                        <option value="special">Special</option>
+                        <option value="diary">Diary</option>
+                        <option value="allergic">Allergic</option>
+                    </select>
+                    <label class="titles">Payment Details</label><br><br>
+                    <label for="payment">Payment Mode</label>
+                    <div class="payment">
+                        <div><input type="radio" name="payment" value="cash"> Cash</div>
+                        <div><input type="radio" name="payment" value="cheque"> Cheque</div>
+                        <div><input type="radio" name="payment" value="draff"> Demand Draff</div> 
+                    </div>                               
+                    <label for="cheque-no">DD/Cheque No. </label>
+                    <input type="text" id="cheque-no" name="cheque-no">
+                    <label for="bank">Drawn On(Bank Name) </label>
+                    <input type="text" id="bank" name="bank">
+                    <label for="payable">Payable at </label>
+                    <input type="text" id="payable" name="payable">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <button>Submit</button>
+            <button>Reset</button>
+        </footer>
+    </div>
+
+    <div class="wrapper">
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fozodtagoevsh.github.io%2Fozod19.github.io%2Fhw3%2Fpage.html">
+            <img class="validator" src="./HTML-checker.png" alt="html validator"/>
+        </a> 
+
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fozodtagoevsh.github.io%2Fozod19.github.io%2Fhw3%2Fpage.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img class="validator" src="./css_checker.png" alt="html validator"/>
+        </a> 
+    </div>
+</body>
+</html>
